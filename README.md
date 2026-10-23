@@ -1,41 +1,42 @@
-# AFK Alerts — Voice 3
+AFK Alerts
 
-Only voice 3 is included. The sidebar, voice selector, preview controls and preview
-recordings have been removed. All alert triggers remain available.
+Offline audio notifications for prayer, aggression timer expiry, potion effects,
+Slayer task completion and superior creature spawns.
 
-## Start on Windows
+## Configuration
 
-1. Close the older test client.
-2. Extract All from the new ZIP and open Start-Plugin.cmd in the extracted folder.
-3. Enable AFK Alerts in RuneLite plugin settings.
-4. Configure prayer threshold, alert toggles, Voice volume and Speaking pace there.
+Enable AFK Alerts in RuneLite plugin settings. Choose the prayer threshold,
+alert types, volume and speaking pace. One bundled voice is provided with
+Relaxed, Natural and Brisk pace options.
 
-The launcher reuses portable Java when available or downloads a verified Java 11 ZIP.
-Keep RuneLite running and your computer awake. Speech plays while minimized. The
-Only when unfocused setting is optional; leave it off to hear alerts while focused too.
+Keep RuneLite running and your computer awake. Audio can play while minimized.
+The optional Only when unfocused setting restricts alerts to an unfocused client.
 
 ## Alerts
 
-- Prayer at or below your selected threshold; restore above it to rearm.
-- NPC Aggression Timer expiry. Enable and calibrate that built-in plugin and set its
-  NPC names or Always active. This is its timer estimate, not proof a monster will attack.
-- Divine super combat expiry, with optional divine ranging/magic, stamina, goading
-  and antifire expiry.
-- Slayer task completion and superior foe announcements, each with its own toggle.
+- Prayer at or below your chosen threshold. Restore above it to rearm.
+- NPC Aggression Timer expiry. Enable and calibrate RuneLite's NPC Aggression
+  Timer plugin. This is a timer estimate, not proof a monster will attack.
+- Divine super combat expiry, with optional divine ranging, divine magic,
+  stamina, goading and antifire expiry.
+- Slayer task completion and superior creature announcements.
 
-Volume, Relaxed/Natural/Brisk pace and optional prayer reminders remain configurable.
-Unused effects and tasks you cancel do not trigger completion alerts. Login transitions,
-world hops and death clear pending alerts. Alert detection logic is unchanged.
+Optional prayer reminders and individual alert toggles are available. Login
+transitions, world hops and death clear pending alerts.
 
-## Validation
+## Development and validation
 
-Build with Java 11: ./gradlew test build. Automated tests cover alert state transitions,
-server message filtering and all 33 PCM WAV files (11 alerts at three paces). The shipped
-voice 3 recordings are unchanged from the complete pack. Check actual game triggers
-and playback manually; there is no built-in preview now.
+Use Java 11 and the Gradle wrapper: `./gradlew test build`.
+For a development client, use `./gradlew run`.
+
+The 17 automated tests cover alert state transitions, server message filtering
+and all 33 PCM WAV resources (11 alerts at three paces). In-game triggers and
+speaker output require manual testing.
 
 ## Distribution
 
-The project follows Plugin Hub standard-build conventions and has not been submitted
-or published. Sources, Gradle wrapper and bundled audio are included. No TTS engine,
-model, API key or runtime speech-generation network calls are required.
+Plugin Hub submission: https://github.com/runelite/plugin-hub/pull/19276
+
+The plugin uses standard-build conventions. Bundled recordings play locally;
+no TTS engine, model, API key or runtime speech-generation requests are required.
+See VOICE-LICENSE.md for recording provenance and licensing.
