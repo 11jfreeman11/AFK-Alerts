@@ -13,6 +13,7 @@ import net.runelite.api.events.ChatMessage;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.gameval.VarbitID;
+import net.runelite.client.audio.AudioPlayer;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
@@ -25,10 +26,11 @@ import net.runelite.client.ui.ClientUI;
 
 @PluginDescriptor(name="AFK Alerts",
     description="Offline voice alerts for prayer, aggression, potions and Slayer tasks",
-    tags={"audio", "voice", "afk", "prayer", "aggro", "divine", "notifications"}, enabledByDefault=false)
+    tags={"audio", "voice", "afk", "prayer", "aggro", "divine", "notifications"})
 public class AfkAlertsPlugin extends Plugin
 {
     @Inject private Client client;
+    @Inject private AudioPlayer audioPlayer;
     @Inject private ClientThread clientThread;
     @Inject private AfkAlertsConfig config;
     @Inject private PluginManager pluginManager;
@@ -46,7 +48,7 @@ public class AfkAlertsPlugin extends Plugin
     @Override protected void startUp() throws Exception
     {
         reset();
-        voice = new VoicePlayer();
+        voice = new VoicePlayer(audioPlayer);
     }
 
     @Override protected void shutDown()

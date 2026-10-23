@@ -7,5 +7,5 @@ Resource tests verify every alert resolves to voices/3 and decodes as mono PCM16
 Package checks verify no other voice folders or preview WAVs/classes are distributed.
 Existing recordings are checked against their earlier SHA-256 manifest.
 
-In-game trigger and speaker-output checks remain manual. This project is not yet
-published or submitted to Plugin Hub.
+In-game trigger and speaker-output checks remain manual. Plugin Hub submission:
+https://github.com/runelite/plugin-hub/pull/19276
