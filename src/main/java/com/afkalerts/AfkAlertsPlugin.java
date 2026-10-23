@@ -4,6 +4,7 @@ import com.google.inject.Provides;
 import java.time.Instant;
 import java.util.EnumMap;
 import java.util.Map;
+import java.util.concurrent.ScheduledExecutorService;
 import javax.inject.Inject;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
@@ -31,6 +32,7 @@ public class AfkAlertsPlugin extends Plugin
 {
     @Inject private Client client;
     @Inject private AudioPlayer audioPlayer;
+    @Inject private ScheduledExecutorService scheduler;
     @Inject private ClientThread clientThread;
     @Inject private AfkAlertsConfig config;
     @Inject private PluginManager pluginManager;
@@ -48,7 +50,7 @@ public class AfkAlertsPlugin extends Plugin
     @Override protected void startUp() throws Exception
     {
         reset();
-        voice = new VoicePlayer(audioPlayer);
+        voice = new VoicePlayer(audioPlayer, scheduler);
     }
 
     @Override protected void shutDown()

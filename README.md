@@ -29,7 +29,7 @@ transitions, world hops and death clear pending alerts.
 Use Java 11 and the Gradle wrapper: `./gradlew test build`.
 For a development client, use `./gradlew run`.
 
-The 20 automated tests cover alert state transitions, server message filtering
+The 24 automated tests cover alert state transitions, server message filtering
 and all 33 PCM WAV resources (11 alerts at three paces). In-game triggers and
 speaker output require manual testing.
 
