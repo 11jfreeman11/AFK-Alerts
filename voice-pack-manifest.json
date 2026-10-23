@@ -1,0 +1,266 @@
+[
+  {
+    "voice": 3,
+    "line": "prayer",
+    "pace": "relaxed",
+    "text": "Your prayer is low.",
+    "seconds": 1.6853333333333333,
+    "sha256": "d82fdbe3c2c99a226fa0704cece83b617b9250b219b144ed7dc8386946f1e7c1"
+  },
+  {
+    "voice": 3,
+    "line": "prayer",
+    "pace": "natural",
+    "text": "Your prayer is low.",
+    "seconds": 1.59,
+    "sha256": "b11eddfdabcfce734b4512f475a24a89e18632725375ae43c7069ef459f99580"
+  },
+  {
+    "voice": 3,
+    "line": "prayer",
+    "pace": "brisk",
+    "text": "Your prayer is low.",
+    "seconds": 1.3866666666666667,
+    "sha256": "810845f06196de00bd1edd7af29b24daebaa7e8cf964dcdc5e655d936aabe399"
+  },
+  {
+    "voice": 3,
+    "line": "empty-prayer",
+    "pace": "relaxed",
+    "text": "You have run out of prayer.",
+    "seconds": 1.6,
+    "sha256": "5c75a5fbc2b79268c948f6d0a4fe20e1d01d20874a3a5eef1218876a859b5585"
+  },
+  {
+    "voice": 3,
+    "line": "empty-prayer",
+    "pace": "natural",
+    "text": "You have run out of prayer.",
+    "seconds": 1.51,
+    "sha256": "4f85ba9a42997e142d896b1b0a70a344a0b3d98ffcea72c547ec6ceac92afb16"
+  },
+  {
+    "voice": 3,
+    "line": "empty-prayer",
+    "pace": "brisk",
+    "text": "You have run out of prayer.",
+    "seconds": 1.3013333333333332,
+    "sha256": "6c5cc7e6fdbff58cba5a1b416578d83a8366f8a7c7eac3b51af3d86c6ce003e3"
+  },
+  {
+    "voice": 3,
+    "line": "aggression",
+    "pace": "relaxed",
+    "text": "Your monster aggression timer has expired.",
+    "seconds": 2.944,
+    "sha256": "4c9fd388ac79e65587da9d38bade8e8da5ff5796f8b1794da875fba6b3b751ce"
+  },
+  {
+    "voice": 3,
+    "line": "aggression",
+    "pace": "natural",
+    "text": "Your monster aggression timer has expired.",
+    "seconds": 2.71,
+    "sha256": "ad9f301f703b78387fc128fa79650b4788fb2bd44ad704ccc0031c1e8e418167"
+  },
+  {
+    "voice": 3,
+    "line": "aggression",
+    "pace": "brisk",
+    "text": "Your monster aggression timer has expired.",
+    "seconds": 2.3893333333333335,
+    "sha256": "e87d3a854c34dcd8a0920f9e6e77763593afb59f10b3307b2232de94197b9c8f"
+  },
+  {
+    "voice": 3,
+    "line": "divine-combat",
+    "pace": "relaxed",
+    "text": "Your divine super combat has expired.",
+    "seconds": 2.5813333333333333,
+    "sha256": "fbf8f3952d64770cda47a595af1ba9b9641356e924c426e730ad3fb1fae37b87"
+  },
+  {
+    "voice": 3,
+    "line": "divine-combat",
+    "pace": "natural",
+    "text": "Your divine super combat has expired.",
+    "seconds": 2.39,
+    "sha256": "d5dfd271f50f09c9bd3b28673ec41a2010c06fe9c7573c07967e31ff6622a896"
+  },
+  {
+    "voice": 3,
+    "line": "divine-combat",
+    "pace": "brisk",
+    "text": "Your divine super combat has expired.",
+    "seconds": 2.112,
+    "sha256": "43799f6c52a3f5109ae8a93abc28386c85dca209ec109fbc3fb4d040ab014d3e"
+  },
+  {
+    "voice": 3,
+    "line": "divine-ranging",
+    "pace": "relaxed",
+    "text": "Your divine ranging potion has expired.",
+    "seconds": 3.2,
+    "sha256": "4db31d0a3f8803e13f2dbc916c5116baf4761730b6389097029fdefa418052d0"
+  },
+  {
+    "voice": 3,
+    "line": "divine-ranging",
+    "pace": "natural",
+    "text": "Your divine ranging potion has expired.",
+    "seconds": 2.95,
+    "sha256": "83d84845632e82f94272a55e024c86f772cfdac00bd9202f06070af14499ce5c"
+  },
+  {
+    "voice": 3,
+    "line": "divine-ranging",
+    "pace": "brisk",
+    "text": "Your divine ranging potion has expired.",
+    "seconds": 2.624,
+    "sha256": "5e964ccad298ffda9f840484336c1eeb116d9cf134bb2c453c3129ed4f2717a4"
+  },
+  {
+    "voice": 3,
+    "line": "divine-magic",
+    "pace": "relaxed",
+    "text": "Your divine magic potion has expired.",
+    "seconds": 2.8373333333333335,
+    "sha256": "d1e9b0bae81c03e71fd3229375fc419b9a9b8a5a91d10fc333a1354cc7bb7ec9"
+  },
+  {
+    "voice": 3,
+    "line": "divine-magic",
+    "pace": "natural",
+    "text": "Your divine magic potion has expired.",
+    "seconds": 2.63,
+    "sha256": "ef0c711ec45316a368cb6839bbc4d3f1d943fe5511256d749d05ac3c285cc3ad"
+  },
+  {
+    "voice": 3,
+    "line": "divine-magic",
+    "pace": "brisk",
+    "text": "Your divine magic potion has expired.",
+    "seconds": 2.3253333333333335,
+    "sha256": "e18f289309bb07ae4bf9d5c141f7333562b422a639e7761e89221260c0c83158"
+  },
+  {
+    "voice": 3,
+    "line": "stamina",
+    "pace": "relaxed",
+    "text": "Your stamina potion has expired.",
+    "seconds": 2.6666666666666665,
+    "sha256": "1b527e8545ed2b88b880a5f47910f6c2547a203c5900df0e94d8efdd6186bdad"
+  },
+  {
+    "voice": 3,
+    "line": "stamina",
+    "pace": "natural",
+    "text": "Your stamina potion has expired.",
+    "seconds": 2.47,
+    "sha256": "f6d436574946887980f56feb87cc6e8c44ab96592899cd1256a7b81b0c48decf"
+  },
+  {
+    "voice": 3,
+    "line": "stamina",
+    "pace": "brisk",
+    "text": "Your stamina potion has expired.",
+    "seconds": 2.176,
+    "sha256": "c9e0cdf1f51f94cb4b38c880c917551f9d014a9d1a9913dda6044d394f9d85b0"
+  },
+  {
+    "voice": 3,
+    "line": "goading",
+    "pace": "relaxed",
+    "text": "Your goading potion has expired.",
+    "seconds": 2.2186666666666666,
+    "sha256": "d69ca5c8b07f6d8394d1af4be93cf9ab4ac688b45778933a71ab300e8cd185db"
+  },
+  {
+    "voice": 3,
+    "line": "goading",
+    "pace": "natural",
+    "text": "Your goading potion has expired.",
+    "seconds": 2.07,
+    "sha256": "2e0fa671a897092cff258fcaa16f796a50d791fa1e2ae17106a8626ab2dd111d"
+  },
+  {
+    "voice": 3,
+    "line": "goading",
+    "pace": "brisk",
+    "text": "Your goading potion has expired.",
+    "seconds": 1.8133333333333332,
+    "sha256": "30ef376b69741a8c7721067e53751d57b46e5b981b9d15ee71e79e263db83d85"
+  },
+  {
+    "voice": 3,
+    "line": "antifire",
+    "pace": "relaxed",
+    "text": "Your antifire protection has expired.",
+    "seconds": 2.304,
+    "sha256": "98cb9774a2c490d7e24cf8a1f6ce7c0eaf0073524cffa0d9fbe60957c9c6894e"
+  },
+  {
+    "voice": 3,
+    "line": "antifire",
+    "pace": "natural",
+    "text": "Your antifire protection has expired.",
+    "seconds": 2.15,
+    "sha256": "a9b1b71be5e214519ad1d77d104fb1828cd168b2431f4a232b3d1175aa219dc8"
+  },
+  {
+    "voice": 3,
+    "line": "antifire",
+    "pace": "brisk",
+    "text": "Your antifire protection has expired.",
+    "seconds": 1.8773333333333333,
+    "sha256": "b9bb42306c49687ceafbc2aa2fc22d29a910900f2425df39c5967e8259fa1daf"
+  },
+  {
+    "voice": 3,
+    "line": "slayer-complete",
+    "pace": "relaxed",
+    "text": "Your Slayer task is complete.",
+    "seconds": 1.9626666666666666,
+    "sha256": "00fd207f79730865634c9e93d588c42afc67be672df023b02697e3363af407e4"
+  },
+  {
+    "voice": 3,
+    "line": "slayer-complete",
+    "pace": "natural",
+    "text": "Your Slayer task is complete.",
+    "seconds": 1.83,
+    "sha256": "fba20a6be2485c635d32782b4cc845d779ea4ba5c16575e15998ee0c7edfc5ef"
+  },
+  {
+    "voice": 3,
+    "line": "slayer-complete",
+    "pace": "brisk",
+    "text": "Your Slayer task is complete.",
+    "seconds": 1.6,
+    "sha256": "07c8e22bac23d04859a90172de05dd54623b323f2a2681eafdea948a5084d638"
+  },
+  {
+    "voice": 3,
+    "line": "superior",
+    "pace": "relaxed",
+    "text": "A superior foe has appeared.",
+    "seconds": 2.1333333333333333,
+    "sha256": "a618baa4536f7a4ba4c256a29ca578ace3a68a3858789186537e15bd9b86d13b"
+  },
+  {
+    "voice": 3,
+    "line": "superior",
+    "pace": "natural",
+    "text": "A superior foe has appeared.",
+    "seconds": 1.99,
+    "sha256": "6ad9a72d92261e9d75152040ccdddeae26c6ad49d419d2e0735ba97eeb15786c"
+  },
+  {
+    "voice": 3,
+    "line": "superior",
+    "pace": "brisk",
+    "text": "A superior foe has appeared.",
+    "seconds": 1.7493333333333334,
+    "sha256": "8d785bd2f8e86d1a7b6edf4404c2ba0297b8b29194da711ce60cacb50c1439be"
+  }
+]

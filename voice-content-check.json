@@ -1,0 +1,68 @@
+[
+  {
+    "voice": 3,
+    "line": "prayer",
+    "expected": "Your prayer is low.",
+    "heard": "Your prayer is low."
+  },
+  {
+    "voice": 3,
+    "line": "empty-prayer",
+    "expected": "You have run out of prayer.",
+    "heard": "You have run out of prayer."
+  },
+  {
+    "voice": 3,
+    "line": "aggression",
+    "expected": "Your monster aggression timer has expired.",
+    "heard": "Your monster aggression timer has expired."
+  },
+  {
+    "voice": 3,
+    "line": "divine-combat",
+    "expected": "Your divine super combat has expired.",
+    "heard": "Your Divine Super Combat has expired."
+  },
+  {
+    "voice": 3,
+    "line": "divine-ranging",
+    "expected": "Your divine ranging potion has expired.",
+    "heard": "Your divine ranging potion has expired."
+  },
+  {
+    "voice": 3,
+    "line": "divine-magic",
+    "expected": "Your divine magic potion has expired.",
+    "heard": "Your Divine Magic Potion has expired."
+  },
+  {
+    "voice": 3,
+    "line": "stamina",
+    "expected": "Your stamina potion has expired.",
+    "heard": "Your stamina potion has expired."
+  },
+  {
+    "voice": 3,
+    "line": "goading",
+    "expected": "Your goading potion has expired.",
+    "heard": "Your goading potion has expired."
+  },
+  {
+    "voice": 3,
+    "line": "antifire",
+    "expected": "Your antifire protection has expired.",
+    "heard": "Your Antifier protection has expired."
+  },
+  {
+    "voice": 3,
+    "line": "slayer-complete",
+    "expected": "Your Slayer task is complete.",
+    "heard": "Your Slayer task is complete."
+  },
+  {
+    "voice": 3,
+    "line": "superior",
+    "expected": "A superior foe has appeared.",
+    "heard": "A superior foe has appeared."
+  }
+]
